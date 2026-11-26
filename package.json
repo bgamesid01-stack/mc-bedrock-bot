@@ -1,0 +1,16 @@
+{
+  "name": "mc-bedrock-bot",
+  "version": "1.0.0",
+  "description": "Bot Minecraft Bedrock: auto-join, auto-reconnect, perintah chat, anti-AFK",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/bot.js && node --check src/commands.js && node --check src/config.js && node --check src/logger.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": {
+    "bedrock-protocol": "^3.45.0",
+    "dotenv": "^16.4.5"
+  }
+}
